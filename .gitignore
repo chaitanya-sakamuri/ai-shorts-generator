@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+temp/
+output/
+
+backgrounds/*.mp4
+backgrounds/*.mov
+backgrounds/*.mkv
