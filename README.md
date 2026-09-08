@@ -1,6 +1,3 @@
-```
-```
-
 ````
 # LoreLoop AI Shorts Generator
 
