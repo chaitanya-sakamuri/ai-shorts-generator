@@ -57,9 +57,6 @@ ai-shorts-generator/
 ## 🔄 How It Works
 
 ```
-```
-
-```
 Story Prompt
      │
      ▼
@@ -100,17 +97,11 @@ Story Prompt
 ### 1. Clone the repository
 
 ```
-```
-
-```
 git clone https://github.com/chaitanya-sakamuri/ai-shorts-generator.git
 cd ai-shorts-generator
 ```
 
 ### 2. Install Python dependencies
-
-```
-```
 
 ```
 pip install -r requirements.txt
@@ -121,16 +112,10 @@ pip install -r requirements.txt
 On Ubuntu/Debian:
 
 ```
-```
-
-```
 sudo apt install ffmpeg
 ```
 
 Verify the installation:
-
-```
-```
 
 ```
 ffmpeg -version
@@ -139,9 +124,6 @@ ffmpeg -version
 ### 4. Configure environment variables
 
 Create a `.env` file in the project root:
-
-```
-```
 
 ```
 GEMINI_API_KEY=YOUR_KEY_HERE
@@ -170,16 +152,10 @@ Replace `YOUR_KEY_HERE` with your Gemini API key.
 Place Minecraft gameplay videos inside:
 
 ```
-```
-
-```
 backgrounds/
 ```
 
 For example:
-
-```
-```
 
 ```
 backgrounds/
@@ -193,9 +169,6 @@ The generator selects a suitable random section of the gameplay for each Short.
 ## ▶️ Usage
 
 Run:
-
-```
-```
 
 ```
 python main.py
@@ -214,18 +187,12 @@ The generator will:
 Generated videos are saved to:
 
 ```
-```
-
-```
 output/
 ```
 
 ## 🎬 Output
 
 The generated videos are designed for YouTube Shorts and use a vertical:
-
-```
-```
 
 ```
 1080 × 1920
@@ -247,17 +214,11 @@ Most settings can be changed through `.env`.
 ### Story length
 
 ```
-```
-
-```
 STORY_MIN_WORDS=190
 STORY_MAX_WORDS=220
 ```
 
 ### TTS voice
-
-```
-```
 
 ```
 TTS_VOICE=en-US-BrianNeural
@@ -266,17 +227,11 @@ TTS_VOICE=en-US-BrianNeural
 ### Video resolution
 
 ```
-```
-
-```
 VIDEO_WIDTH=1080
 VIDEO_HEIGHT=1920
 ```
 
 ### Frame rate
-
-```
-```
 
 ```
 FPS=30
