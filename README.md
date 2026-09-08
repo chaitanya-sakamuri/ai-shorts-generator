@@ -273,5 +273,3 @@ The project is designed to make experimenting with different story concepts easy
 This project generates fictional stories using AI.
 
 Background gameplay should be footage that you have permission to use or that is otherwise appropriately licensed.
-
-so i shall paste this?
